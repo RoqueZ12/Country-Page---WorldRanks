@@ -1,0 +1,45 @@
+.card-table {
+  max-height: 700px; /* Altura máxima de la card-body */
+  overflow-y: auto; /* Habilitar desplazamiento vertical */
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #1B1D1F; /* Agrega un color de fondo */
+  border-bottom: 2px solid #D2D5DA; 
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  color: #D2D5DA;
+  
+}
+
+th {
+  color: #6C727F;
+  font-size: 1rem;
+}
+
+.img-country {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Ajusta el ancho de las columnas de manera más uniforme */
+th:nth-child(2),
+td:nth-child(2),
+th:nth-child(3),
+td:nth-child(3) {
+  width: 25%; /* Puedes ajustar este valor según sea necesario */
+}
+
+/* Si las columnas aún están demasiado separadas, reducir el ancho de la tabla */
+table {
+  width: 100%; /* Ajustar al ancho completo del contenedor */
+  border-collapse: collapse;
+}

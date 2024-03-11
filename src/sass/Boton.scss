@@ -1,0 +1,21 @@
+button{
+  border: 2px solid #6C727F;
+  padding: 0.5rem;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: #1B1D1F;
+  color: #D2D5DA;
+  margin-right: 0.5rem;
+  width: 75px;
+  color: #D2D5DA;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rebeccapurple;
+}
+button:active,
+button:focus {
+  /* Estilos cuando el botón está presionado o enfocado */
+  background-color: #0056b3;
+  /* Aquí puedes agregar otros estilos si lo deseas */
+}
